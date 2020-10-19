@@ -1,0 +1,9 @@
+--- src/heightmap.h	2020-10-11 05:36:20.000000000 +0200
++++ src/heightmap_new.h	2020-10-19 22:04:44.148793698 +0200
+@@ -1,5 +1,6 @@
+ #pragma once
+ 
++#include <algorithm>
+ #include <glm/glm.hpp>
+ #include <string>
+ #include <utility>
