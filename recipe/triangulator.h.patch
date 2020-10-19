@@ -1,0 +1,9 @@
+--- src/triangulator.h	2020-10-19 20:25:57.176476760 +0200
++++ src/triangulator_new.h	2020-10-19 20:31:21.904082129 +0200
+@@ -1,5 +1,6 @@
+ #pragma once
+ 
++#include <algorithm>
+ #include <glm/glm.hpp>
+ #include <memory>
+ #include <vector>

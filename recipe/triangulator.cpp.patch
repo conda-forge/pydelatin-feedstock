@@ -1,0 +1,10 @@
+--- src/triangulator.cpp	2020-10-19 20:26:06.900461871 +0200
++++ src/triangulator_new.cpp	2020-10-19 20:31:16.340087435 +0200
+@@ -1,7 +1,5 @@
+ #include "triangulator.h"
+ 
+-#include <algorithm>
+-
+ Triangulator::Triangulator(const std::shared_ptr<Heightmap> &heightmap) :
+     m_Heightmap(heightmap) {}
+ 
