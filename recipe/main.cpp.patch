@@ -1,0 +1,12 @@
+--- src/main.cpp	2020-10-11 05:36:20.000000000 +0200
++++ src/main_new.cpp	2020-10-19 22:57:21.685541440 +0200
+@@ -191,9 +191,5 @@
+         .def("run", &PydelatinTriangulator::run)
+         ;
+ 
+-#ifdef VERSION_INFO
+-    m.attr("__version__") = VERSION_INFO;
+-#else
+     m.attr("__version__") = "dev";
+-#endif
+ }

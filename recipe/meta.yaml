@@ -10,6 +10,7 @@ source:
   sha256: de049064e1d7f6bde33609b2a8e9ad0e7ead76ffc36478e47fe4a4ef41de9b11
   patches:
     - heightmap.h.patch
+    - main.cpp.patch
 
 build:
   number: 3
