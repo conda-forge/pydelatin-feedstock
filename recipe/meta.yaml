@@ -1,4 +1,4 @@
-{% set version = "0.2.8" %}
+{% set version = "0.3.0" %}
 {% set name = "pydelatin" %}
 
 package:
@@ -6,8 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3703dd37fc3fb5a2fc1ec681c530ccc95639885a93a5506fe057aed77d81fe6a
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 14b6b594bd31e5b0324a662b434ac6afa4d21ab72fa3116549507c4cfdba6552
 
 build:
   number: 0
