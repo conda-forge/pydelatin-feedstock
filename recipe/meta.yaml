@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 {% set name = "pydelatin" %}
 
 package:
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 14b6b594bd31e5b0324a662b434ac6afa4d21ab72fa3116549507c4cfdba6552
+  sha256: d0ab7bd372582c89f3ce1d50214e571c565364ff7b2e3ca883638ca004d63355
 
 build:
-  number: 2
+  number: 0
   skip: true  # [py<36] [python_impl == 'pypy']
   script: {{ PYTHON }} -m pip install . -vv
 
